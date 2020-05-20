@@ -1,6 +1,6 @@
 {
   "name": "ontotext-brand-theme",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Styles and resources for Ontotext web applications",
   "main": "index.js",
   "files": [

@@ -1,4 +1,4 @@
-# ontotext-visual-theme
+# ontotext-brand-theme
 
 A package containing UI theme css and resources.
 

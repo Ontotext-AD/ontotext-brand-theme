@@ -1,0 +1,26 @@
+{
+  "name": "ontotext-visual-theme",
+  "version": "1.0.0",
+  "description": "Styles and resources for Ontotext web applications",
+  "main": "index.js",
+  "files": [
+    "build/",
+    "src/"
+  ],
+  "scripts": {
+    "build": "sass src/styles:build/css",
+    "watch": "sass --watch src/styles:build/css",
+    "serve": "live-server --entry-file=index.html",
+    "test": "concurrently \"npm run watch\" \"npm run serve\""
+  },
+  "author": {
+    "name": "\"Sirma AI\" JSC, trading as Ontotext",
+    "url": "https://www.ontotext.com/"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "live-server": "^1.2.1",
+    "sass": "^1.26.5"
+  }
+}

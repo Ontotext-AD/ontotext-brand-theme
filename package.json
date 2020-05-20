@@ -28,7 +28,9 @@
     "build": "sass src/styles:build/css",
     "watch": "sass --watch src/styles:build/css",
     "serve": "live-server --entry-file=index.html",
-    "test": "concurrently \"npm run watch\" \"npm run serve\""
+    "test": "concurrently \"npm run watch\" \"npm run serve\"",
+    "pub:dry": "npm publish ./ --dry-run",
+    "pub": "npm publish ./"
   },
   "author": {
     "name": "\"Sirma AI\" JSC, trading as Ontotext",

@@ -2,7 +2,24 @@
   "name": "ontotext-brand-theme",
   "version": "0.0.1",
   "description": "Styles and resources for Ontotext web applications",
-  "main": "index.js",
+  "contributors": [
+    {
+      "name": "Desislava Hristova",
+      "email": "desislava.hristova@ontotext.com"
+    },
+    {
+      "name": "Mihail Radkov",
+      "email": "mihail.radkov@ontotext.com"
+    },
+    {
+      "name": "Svilen Velikov",
+      "email": "svilen.velikov@ontotext.com"
+    },
+    {
+      "name": "Teodossi Dossev",
+      "email": "teodossi.dossev@ontotext.com"
+    }
+  ],
   "files": [
     "build/",
     "src/"
